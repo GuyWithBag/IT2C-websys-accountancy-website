@@ -26,3 +26,7 @@
 .btn-secondary:hover {
 	background-color: #3c59a8;
 }
+
+.img-radius {
+	border-radius: 40% 60% 43% 57% / 60% 45% 55% 40%;
+}
