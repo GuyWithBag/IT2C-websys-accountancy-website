@@ -898,7 +898,7 @@ body {
 
 /* Border Colors */
 .border-primary {
-	border-color: var(--primary);
+	border-color: var(--test);
 }
 
 .border-secondary {
@@ -920,18 +920,6 @@ body {
 .border-black {
 	border-color: var(--black);
 }
-
-/* Root Colors */
-:root {
-	--primary: #ff6b6b; /* Bright red */
-	--secondary: #4d6ec5; /* Deep blue */
-	--light-gray: #f4f4f4; /* Light gray */
-	--dark-gray: #333333; /* Dark gray */
-	--white: #ffffff; /* White */
-	--black: #000000; /* Black */
-}
-
-/* Typography Classes */
 
 /* Display Styles */
 .text-displayLarge {
