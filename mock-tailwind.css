@@ -1,6 +1,6 @@
 :root {
-	--primary: #ff6b6b; /* Bright red (buttons) */
-	--secondary: #ffb400; /* Deep blue (backgrounds) */
+	--primary: #ffb400;
+	--secondary: #ff6b6b;
 	--light-gray: #f4f4f4; /* Background */
 	--dark-gray: #333333; /* Text color */
 	--white: #ffffff; /* White */
