@@ -39,3 +39,9 @@
 .img-radius {
 	border-radius: 40% 60% 43% 57% / 60% 45% 55% 40%;
 }
+
+.card {
+	border-radius: 1rem;
+	padding: 1rem;
+	color: var(--white);
+}
