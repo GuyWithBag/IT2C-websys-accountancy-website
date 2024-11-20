@@ -7,6 +7,12 @@
 	cursor: pointer;
 	display: inline-block;
 	background-color: transparent;
+	color: var(--black);
+	text-decoration: none;
+}
+
+.btn:hover {
+	cursor: pointer;
 }
 
 .btn-primary {
@@ -45,4 +51,8 @@
 	border-radius: 1rem;
 	padding: 1rem;
 	color: var(--white);
+}
+
+.background-shape-inifier {
+	border-radius: 50% 50% 50% 50% / 83% 83% 17% 17%;
 }
