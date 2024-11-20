@@ -1681,3 +1681,20 @@ body {
 .max-h-96 {
 	max-height: 24rem;
 } /* 384px */
+
+/* Object Fit Utilities */
+.object-contain {
+	object-fit: contain;
+} /* The content is resized to fit within the container while maintaining its aspect ratio. */
+.object-cover {
+	object-fit: cover;
+} /* The content is resized to completely cover the container while maintaining its aspect ratio. */
+.object-fill {
+	object-fit: fill;
+} /* The content is resized to fill the container. Aspect ratio is not preserved. */
+.object-none {
+	object-fit: none;
+} /* The content is not resized. */
+.object-scale-down {
+	object-fit: scale-down;
+} /* The content is resized to the smallest size between `none` and `contain`. */
