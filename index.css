@@ -1,12 +1,18 @@
-/* Buttons */
 .btn {
-	padding: 0.75rem 1.5rem;
+	padding: 0.65rem 1.2rem;
 	font-size: 1rem;
 	font-weight: bold;
 	border: none;
 	border-radius: 0.5rem;
 	cursor: pointer;
 	display: inline-block;
+	background-color: transparent;
+	color: var(--black);
+	text-decoration: none;
+}
+
+.btn:hover {
+	cursor: pointer;
 }
 
 .btn-primary {
@@ -39,4 +45,14 @@
 
 .img-radius {
 	border-radius: 40% 60% 43% 57% / 60% 45% 55% 40%;
+}
+
+.card {
+	border-radius: 1rem;
+	padding: 1rem;
+	color: var(--white);
+}
+
+.background-shape-inifier {
+	border-radius: 50% 50% 50% 50% / 83% 83% 17% 17%;
 }

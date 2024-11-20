@@ -1269,7 +1269,7 @@ body {
 
 /* Border Colors */
 .border-primary {
-	border-color: var(--primary);
+	border-color: var(--test);
 }
 
 .border-secondary {
@@ -1957,3 +1957,13 @@ body {
 .right-auto {
 	right: auto;
 } /* Automatically set by the browser */
+
+.z-10 {
+	z-index: 10;
+}
+.z-20 {
+	z-index: 20;
+}
+.z-30 {
+	z-index: 30;
+}
