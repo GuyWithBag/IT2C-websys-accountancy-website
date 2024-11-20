@@ -6,6 +6,7 @@
 	border-radius: 0.5rem;
 	cursor: pointer;
 	display: inline-block;
+	background-color: transparent;
 }
 
 .btn-primary {
