@@ -1,0 +1,66 @@
+.taxservice-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 24px;
+	padding: 32px;
+  }
+  
+
+  .services {
+	background: #ffefba; 
+	border: 2px solid #f4c542;
+	border-radius: 8px;
+	padding: 24px;
+	width: 300px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	text-align: center;
+  }
+  
+
+  .title {
+	font-weight: 600; 
+	margin-bottom: 16px;
+  }
+
+
+  .price {
+	color: #d4a017; 
+	margin-bottom: 16px;
+  }
+  
+ 
+  .button {
+	display: inline-block;
+	background-color: #f4c542;
+	color: #333;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 5px;
+	font-weight: bold;
+	transition: background-color 0.3s;
+	margin-bottom: 16px;
+  }
+  
+  .button:hover {
+	background-color: #d4a017;
+  }
+  
+
+  .features {
+	list-style: none;
+	padding: 0;
+	text-align: left;
+	margin-top: 16px;
+  }
+  
+  .features li {
+	margin: 8px 0;
+  }
+  
+
+  .recommended {
+	background: linear-gradient(45deg, #ffd700, #ffefba);
+	border: 3px solid #d4a017;
+  }
+  
