@@ -60,3 +60,7 @@
 .half-white {
 	height: 42.9rem;
 }
+.btn-ghost {
+	border-color: var(--black);
+	border-width: 2px;
+}
