@@ -57,7 +57,10 @@
 	border-radius: 50% 50% 50% 50% / 83% 83% 17% 17%;
 }
 
-
 .half-white {
-	height: 42.9rem
+	height: 42.9rem;
+}
+.btn-ghost {
+	border-color: var(--black);
+	border-width: 2px;
 }
