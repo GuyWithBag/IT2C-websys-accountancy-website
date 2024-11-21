@@ -3,26 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    background-color: var(--light-gray);
 }
 
 a {
     text-decoration: none;
-    color: #333;
 }
 
-/* Navbar Styles */
-.navbar {
-    background-color: #ff6600;
-    padding: 15px;
-    text-align: center;
-}
-
-.navbar a {
-    color: rgb(243, 240, 236);
-    margin: 0 15px;
-    font-size: 1.1em;
-}
 
 /* Banner Styles */
 .banner {
@@ -50,7 +37,6 @@ a {
 }
 
 .product-card {
-    background-color: white;
     width: 250px;
     margin: 15px;
     padding: 15px;
@@ -69,11 +55,9 @@ a {
 .product-card h3 {
     margin: 10px 0;
     font-size: 1.2em;
-    color: #ff6600;
 }
 
 .product-card p {
-    color: #888;
     font-size: 0.9em;
 }
 
@@ -86,24 +70,23 @@ a {
 
 .team-section h2 {
     font-size: 2.5em;
-    color: #333;
 }
 
 .team-section p {
-    color: #555;
     font-size: 1.1em;
     margin: 20px 0;
+    background-image: white;
 }
 
 .team-card {
     display: inline-block;
     width: 250px;
-    margin: 20px;
     text-align: center;
-    background-color: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    height: 20rem;
 }
 
 .team-card img {
@@ -114,9 +97,5 @@ a {
 
 .team-card h3 {
     margin: 10px 0;
-    color: #ff6600;
 }
 
-.team-card p {
-    color: #888;
-}
