@@ -57,51 +57,50 @@
 	border-radius: 50% 50% 50% 50% / 83% 83% 17% 17%;
 }
 
+.btn-ghost {
+	border-color: var(--black);
+	border-width: 2px;
+}
 
 body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	background-color: #fff8dc; 
+	background-color: #fff8dc;
 	color: #333;
-  }
-  
+}
 
-  .taxservice-container {
+.taxservice-container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	gap: 24px;
 	padding: 32px;
-  }
-  
+}
 
-  .services {
-	background: #ffefba; 
+.services {
+	background: #ffefba;
 	border: 2px solid #f4c542;
 	border-radius: 8px;
 	padding: 24px;
 	width: 300px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 	text-align: center;
-  }
-  
+}
 
-  .title {
-	font-size: 1.875rem; 
-	font-weight: 600; 
+.title {
+	font-size: 1.875rem;
+	font-weight: 600;
 	margin-bottom: 16px;
-  }
-  
+}
 
-  .price {
-	font-size: 1.25rem; 
-	color: #d4a017; 
+.price {
+	font-size: 1.25rem;
+	color: #d4a017;
 	margin-bottom: 16px;
-  }
-  
- 
-  .button {
+}
+
+.button {
 	display: inline-block;
 	background-color: #f4c542;
 	color: #333;
@@ -111,27 +110,24 @@ body {
 	font-weight: bold;
 	transition: background-color 0.3s;
 	margin-bottom: 16px;
-  }
-  
-  .button:hover {
-	background-color: #d4a017;
-  }
-  
+}
 
-  .features {
+.button:hover {
+	background-color: #d4a017;
+}
+
+.features {
 	list-style: none;
 	padding: 0;
 	text-align: left;
 	margin-top: 16px;
-  }
-  
-  .features li {
-	margin: 8px 0;
-  }
-  
+}
 
-  .recommended {
+.features li {
+	margin: 8px 0;
+}
+
+.recommended {
 	background: linear-gradient(45deg, #ffd700, #ffefba);
 	border: 3px solid #d4a017;
-  }
-  
+}
