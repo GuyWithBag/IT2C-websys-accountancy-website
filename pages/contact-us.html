@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="../mock-tailwind.css" />
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="contact-us.css" />
+  </head>
+  <body>
+    <main class="bg-light-gray">
+      <!-- <div class="banner"></div> -->
+      <nav class="flex bg-white bg-white w-screen h-16 p-10">
+        <img src="/assets/clair_compta_logo.png" />
+      </nav>
+
+      <div class="header-section">
+        <h1 class="ConUs text-headlineLarge">Contact Us</h1>
+        <h2 class="ConUsPar text-bodyMedium">
+          Need support? Contact us via these mediums
+        </h2>
+      </div>
+
+      <div class="column">
+        <div class="social-media">Social Media</div>
+
+        <!-- Facebook List directly under the Social Media section -->
+         <div class="flex flex-row justify-center items-center">        
+            <a href="https://facebook.com">
+            <img
+              src="../assets/facebook.svg"
+              style="display: block; width: 200px; margin: auto"
+            />
+          </a>
+          <a href="https://x.com/">
+            <img
+              src="../assets/twitter.svg"
+              style="display: block; width: 200px; margin: auto"
+            />
+          </a>
+
+          <a href="https://www.instagram.com/">
+            <img
+              src="../assets/instagram.svg"
+              style="display: block; width: 200px; margin: auto"
+            />
+          </a>
+        </div>
+  
+        <div class="direct-contact">Direct Contact</div>
+        <li class="Phone">09990909099</li>
+      </div>
+    </main>
+  </body>
 </html>
