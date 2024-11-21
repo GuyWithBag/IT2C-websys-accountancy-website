@@ -2,8 +2,8 @@
 	padding: 0.65rem 1.2rem;
 	font-size: 1rem;
 	font-weight: bold;
-	border: none;
-	border-radius: 0.5rem;
+	border-style: none;
+	border-radius: 1rem;
 	cursor: pointer;
 	display: inline-block;
 	background-color: transparent;
@@ -50,7 +50,6 @@
 .card {
 	border-radius: 1rem;
 	padding: 1rem;
-	color: var(--white);
 }
 
 .background-shape-inifier {
@@ -58,9 +57,16 @@
 }
 
 .half-white {
-	height: 42.9rem;
+	height: 30rem;
 }
+
 .btn-ghost {
 	border-color: var(--black);
 	border-width: 2px;
+	border-style: solid;
+	background-color: var(--white);
+}
+
+.btn-ghost:hover {
+	background-color: var(--light-gray);
 }
